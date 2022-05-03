@@ -1,0 +1,37 @@
+Comantos GIT
+
+cd "diretorio" -> navega até o diretorio desejado
+cd .. -> volta para pasta anterior
+ls -> lista arquivos do diretório autal
+mkdir "nome" -> cria um diretório
+del/rmdir -> deleta diretorio
+echo -> retorna o que se é escrito.
+echo > "nome"."tipo" -> cria o arquivo no tipo solicitado
+pwd -> se mostra o caminho de onde está.
+git init -> inicia o gerenciamento do Git de determinado repositório.
+ls -a -> lista arquivos ocultos do diretório atual
+git config --global user.email "email@email.com" -> define o email para o gerenciamento do diretorio git (recomenda-se o mesmo de uso no GitHub)
+git config --global user.name "usuario" ->Define usuario para o gerenciamento diretorio Git (recomenda-se o mesmo de uso no GitHub)
+git add * -> adiciona todas as mudanças feitas no diretório ao commit
+git commit -m "Nome da alteração" -> salva o commit (um print do arquivo como está). (Será exibido como uma especie de versão).
+git status -> mostra se há alguma pendencia ou alteração no repositório gerenciado.
+mv "nome" ./ "destino" -> move o arquivo do atual repositorio para outro.
+git rm "nome"-> remove o arquivo do commit
+git add "nome" -> adiciona o arquivo ao commit
+git config --global --unset user.email -> remove o email da configuração atual do Git
+git config --global --unset user.name -> remove o nome de usuario da configuração atual
+git remote add "origin" "HTTPS" -> cria uma conexão com o repositorio situado no GitHub. O nome entre "" fica a critério do programador.
+git remote -v -> mostra a lista de repositirios cadastrados.
+git push "origin" master -> envia as alterações e novos arquivos do repositorio local para o remoto (caso seja rejeitado por versão alternativa no remoto deve-se puxar o alterado e uni-los)
+git pull "origin" master-> puxa a ultima versão do conteudo no diretorio remoto para o local
+
+criar chave ssh para GitHub
+
+ssh-keygen -t ed25519 -C "email" -> Cria chave ssh com o email escolhido
+eval $(ssh-agent -s) -> Abre o agente de cripografação
+ssh-add id_ed25519 -> adiciona a chave ssh no email
+
+Comandos Git/GitHub
+
+git clone "HTML" -> clona o diretorio remoto escolhido no GitHub e o copia para um diretório local.
+git config --list -> mostra configurações usadas no Git
