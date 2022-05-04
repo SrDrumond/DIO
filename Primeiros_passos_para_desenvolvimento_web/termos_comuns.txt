@@ -1,0 +1,28 @@
+404 - pagina inexistente.
+Algoritmos - sequência de passos para execução de tarefas.
+ALT - texto alternativo (quando se para o mouse em cima de algo e aparece texto.
+API - um adiciona que se coloca no site que se executa outras funções, podendo ser usada ações de outro site.
+Aplicação - Software/Programas.
+Biblioteca/dll - conjuntos de ferramentas.
+Bootstrap - framework de ferramentas.
+Breakpoints - 1. Pontos chaves de montagem de tela multi-plataforma 2. Ponto de parada de Debug para visualização.
+Bug – erro.
+Cache - dados salvos pelo site para rápido carregamento.
+Código - instruções feitas em uma ou mais linguagens de programação.
+Controle de versão - software que controla versão de determinado software.
+Cookies - rastros deixados por sites.
+Debug - processo para se descobrir e correção de problemas no programa.
+Deploy - pequeno pacote de arquivos a ser publicado.
+Responsivo - programa adaptável para todos formatos de tela.
+DNS - traduz sites escritos para IP.
+Documentação 1. Interna -comentários em códigos 2.externa - manual de usuário.
+Domínio - @google.com/google.com.br.
+DPI - proporção de pontos na tela.
+Editor de texto - Programa para edição de texto, notepad, notepad++, etc.
+Estrutura de dados - array, char, int, etc.
+Favicon - ícone de aba representativa do site.
+Fonte - Fonte de letra ou código fonte.
+Framework - caixa de ferramentas para desenvolvimento.
+FTP - protocolo de comunicação para troca de arquivos.
+
+
