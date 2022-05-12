@@ -1,0 +1,70 @@
+Comandos HTML
+<p> -> caixa de conteúdo
+<h1> a <h6> -> tamanho da fonte
+<footer> -> roda pé
+<head> -> nome apresentado na guia
+<body> -> corpo do site
+<a target="_blank">nome do que será agregado o link</a> -> faz com que o link seja aberto em uma nova guia
+<a href="link">nome do que será agregado o link</a> -> agrega links
+<a href=malito"link">nome do que será agregado o link</a> -> agrega link para email
+<a href=telefone"link">nome do que será agregado o link</a> -> agrega link para telefone
+<img src="img/avatar.jpg"> -> é obrigatório, guarda caminho da imgaem local ou exeterna
+<img alt="foto de valber"> -> fornece descrição a imagem
+<ul> -> criador de lista onde a ordem dos produtos não são importantes
+<ol> -> criador de lista onde a ordem dos produtos são importantes, já que são demonstrados por numeros, algaritomos romanos, etc.
+<li> -> item da lista
+
+--------
+Comandos CSS
+link rel="stylesheet" href="caminho arquivo css" -> puxa o arquvio css para a pagina com todas as pré configurações
+background -> Altera o plano de fundo da área selecionada
+border -> altera a borda da área selecionada
+    solid: mostra uma borda simples e reta
+    dotted: são bolinhas com um pequeno espaçamento entre elas
+    dashed: forma uma linha tracejada
+    border-radius: arredonda os cantos (px e porcentagem)
+    border-width: altera a largura
+    border-color: altera a cor
+    border-style: altera o estilo
+padding -> espaçamento entre conteúdo e página
+margin -> borda externa ao conteúdo
+
+font -> comando para fonte de texto
+    font-family -> altera o modelo de fonte
+    font-size -> altera o tamanho da fonte
+    font-style -> altera para italico
+    font-wieght -> altera o peso da fonte
+        bold-> altera o peso para negrito
+text-transform -> adiciona transformação ao texto
+    uppercase -> transofrma o texto para maiusculo
+    lowcase -> transofrma o texto para minusculo
+    capitalize -> Coloca toda primeira letra de cada palavra em maiusculo
+text-decoration -> usado para dar destaque em algum texto
+    underline -> adiciona linha abaixo da palavra
+    overline -> adiciona linha acima da palavra
+    line-though -> linha cortando a palavra
+
+list-style-type -> altera o modelo da lista
+    square-> alterna o simbolo para um quadrado
+    roman -> altera a numeração para romanos
+    upper -> altera para caixa alta
+    "código" -> se colocado o nome em código de emoges você consegue adiciona-los
+    url("localização da imagem local ou remoto) -> adiciona imagens como simbolos
+    none -> remove os marcadores
+
+Dimensões e Alinhamentos
+    width: "" -> largura do elemento
+        100% - > se ajusta ao elemento automaticamente
+    height: "" -> altura do elemento
+        100% -> se ajusta ao elemento automaticamente
+    max-width -> largura maxima permitida
+    text align -> define alinhamento ao texto
+        center -> alinha ao centro
+        justify -> justifica o texto
+        left -> alinha a esquerda
+        right -> alinha a direita
+    margin: auto; -> cria margens automaticas para que os elemntos fiquem sempre ao centro
+------
+
+tinypng.com ->compressor de imagens
+https://visualstudio.microsoft.com/pt-br/ -> instalador vscode
