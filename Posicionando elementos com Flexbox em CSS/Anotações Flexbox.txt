@@ -1,0 +1,42 @@
+Anotações Flexbox
+-------------------
+\\ = conceito
+// = linha de comando
+
+\\dislpayflex -> dá inicio a todos os filhos diretos desa tag como flex-itens (flex-itens podem se tornar flex containers).
+    //dislpay: flex;
+
+\\<div> -> dá inicio a um container.
+    //<div></div>
+
+\\flex-direction -> é a propriedade que estabelece o eixo principal do container, definindo a direção em que os itens serão 
+colocados no flex container.
+    //flex-direction ""
+        row(usado como padrão) -> ordenação em linha, da esqueda para a direita.
+        row-reverse -> ordenação em linha, da direita para a esquerda.
+        column -> ordenação em coluna, de cima para baixo.
+        column-reverse -> ordenação em colona, de baixo para cima.
+
+\\heigth -> controle de altura do objeto
+    //heigth: "";
+        max-heigth;
+        min-heigth;
+        heigth: "x";
+
+\\width -> controle de largura do objeto
+    //width: "";
+        max-width;
+        min-width;
+        width: "x";
+
+\\wrap -> controla a quebra de linha, para padrão (sem quebra) ou com a quebra.
+    //flex-wrap: "";
+        nowrap -> Não permite a quebra de linha, sendo a configuração padrão.
+        wrap -> permite a quebra de linha em uma organização normal.
+        wrap-reverse -> Permite a quebra de linha em uma organizão reversa, sendo na ordem de baixo para cima (row) ou da esquerda para direita (column).
+
+\\Flow -> atalho para flex-direction e flex-wrap.
+    //flex-flow: ""; -> a ordem a ser escrita é direction e wrap
+        row nowwrap e os demais comandos entrelaçando as funções de direction e wrap.
+
+
